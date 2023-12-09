@@ -1,0 +1,312 @@
+
+.search_app{
+    height: 800px;
+    background-color: #f2efe6;
+    padding-top: 150px;
+}
+
+.search_app .search_box{
+    position: absolute !important;
+    right: 100px !important;
+    color: #dbd6c9;
+}
+
+  .search_box input[type="text"] {
+    padding-right: 40px; 
+    background-color: #dbd6c9;
+     color: #aaaaaa;
+     border: none;
+     width: 300px;
+     height: 40px;
+
+  }
+  
+  /* Style for the icon */
+  .search_box .icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: gray;
+    pointer-events: none; 
+    border: none;
+  }
+
+  .search_app .info_text{
+    padding-top: 50px;
+    position: relative;
+  }
+
+  .search_app .add_app{
+   position: relative;
+  }
+
+  .search_app .add_app .btn{
+    right: 100px;
+    position: absolute;
+    background-color: #006dcb !important;
+  }
+
+  .info_text h1{
+    color: #006dcb;
+    font-size: 24px;
+    position: absolute;
+  }
+
+  .custom-row {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+  }
+  
+  .col-custom {
+    flex: 1;
+  }
+  
+ .search_app h1 {
+    margin-left: -15px;
+    color: #006dcb;
+    font-size: 24px;
+    padding-left: 150px;
+  }
+  
+  .btn-custom {
+    margin-right: 100px;
+    padding-left: 410px;
+    text-decoration: none;
+    /* background-color: #204eb7; */
+  }
+
+
+  .search_app .card_item{
+   background-color: #fff;
+   margin-top: 10px;
+   border-radius: 30px;
+   height: 120px;
+  }
+
+  .search_app ul {
+    list-style: none;
+    width: 85%;
+    margin: 0px 7.5%;
+    margin-top: 50px;
+  }
+
+  .search_app .card_item .first{
+    padding-left: 50px;
+  }
+
+  .search_app .card_item .first h3{
+    color: #4f5a52;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: -5px;
+  }
+
+  .search_app .card_item .first #app_id{
+    color: #3c3c3c;
+    font-size: 13.5px;
+  }
+
+  .search_app .card_item .first #time{
+    color: #2ebe5e;
+    font-size: 12px;
+    margin-top: -15px;
+  }
+
+  .search_app .card_item .second #percent{
+    color: #84d0f8;
+    font-size: 50px;
+    margin-top: 20px;
+
+  }
+
+  .search_app .card_item .third #arrow{
+    background-color: #ffa700;
+    color: #204eb7;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 100px;
+    padding: 10px;
+    border-radius: 100%;
+  }
+
+  .search_app .pagination{
+    width: 80%;
+    margin: 50px 10%;
+  }
+
+  .search_app .pagination span{
+    color: #fff;
+    background-color: #2e5dc7;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 20px;
+  }
+
+  .search_app .not_found{
+    margin-top: 100px;
+  }
+
+  .search_app .not_found h3{
+    color: #555555;
+    font-size: 17px;
+  }
+
+
+
+
+  @media (max-width:768px){
+    
+  .search_app{
+    height: 1000px;
+  }
+
+.search_app .search_box{
+  position: relative;
+  right: 100px !important;
+  color: #dbd6c9;
+}
+
+.search_box input[type="text"] {
+  padding-right: 100px; 
+  background-color: #dbd6c9;
+   color: #aaaaaa;
+   border: none;
+   width: 300px;
+   height: 40px;
+
+}
+
+/* Style for the icon */
+.search_box .icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  color: gray;
+  pointer-events: none; 
+  border: none;
+}
+
+.search_app .info_text{
+  padding-top: 50px;
+  position: relative;
+}
+
+.search_app .add_app{
+ position: relative;
+}
+
+.search_app .add_app .btn{
+  right: 50px;
+  position: absolute;
+  background-color: #006dcb !important;
+}
+
+.info_text h1{
+  color: #006dcb;
+  font-size: 24px;
+  position: absolute;
+}
+
+.custom-row {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.col-custom {
+  flex: 1;
+}
+
+.search_app h1 {
+  margin-left: -40px;
+  color: #006dcb;
+  font-size: 24px;
+  padding-left: 170px;
+  padding-bottom: -100px;
+}
+
+.btn-custom {
+  margin-right: 150px !important;
+  padding-left: 550px;
+  text-decoration: none;
+  /* background-color: #204eb7; */
+}
+
+
+.search_app .card_item{
+ background-color: #fff;
+ margin-top: 10px;
+ border-radius: 30px;
+ height: 120px;
+}
+
+.search_app ul {
+  list-style: none;
+  width: 80%;
+  margin: 0px 10%;
+  margin-top: 50px;
+}
+
+.search_app .card_item .first{
+  padding-left: 50px;
+}
+
+.search_app .card_item .first h3{
+  color: #4f5a52;
+  font-size: 18px;
+  padding-top: 20px;
+  padding-bottom: -5px;
+}
+
+.search_app .card_item .first #app_id{
+  color: #3c3c3c;
+  font-size: 13.5px;
+}
+
+.search_app .card_item .first #time{
+  color: #2ebe5e;
+  font-size: 12px;
+  margin-top: -15px;
+}
+
+.search_app .card_item .second #percent{
+  color: #84d0f8;
+  font-size: 20px;
+
+}
+
+.search_app .card_item .third #arrow{
+  background-color: #ffa700;
+  color: #204eb7;
+  font-size: 40px;
+  margin-top: 20px;
+  margin-left: 0px;
+  padding: 10px;
+  border-radius: 100%;
+}
+
+.search_app .pagination{
+  width: 80%;
+  margin: 50px 10%;
+}
+
+.search_app .pagination span{
+  color: #fff;
+  background-color: #2e5dc7;
+  margin-left: 10px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.search_app .not_found{
+  margin-top: 100px;
+}
+
+.search_app .not_found h3{
+  color: #555555;
+  font-size: 17px;
+}
+  }

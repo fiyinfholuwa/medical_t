@@ -28,6 +28,36 @@
   color: #61dafb;
 }
 
+
+@font-face {
+  font-family: "DMSans-Medium";   /*Can be any text*/
+  src: local("DMSans-Medium"),
+    url("./fonts/DMSans-Medium.ttf") format("truetype");
+}
+
+
+@font-face {
+  font-family: "DMSans";   /*Can be any text*/
+  src: local("DMSans-Regular"),
+    url("./fonts/DMSans-Regular.ttf") format("truetype");
+}
+
+
+@font-face {
+  font-family: "Metrisch-Bold";   /*Can be any text*/
+  src: local("Metrisch-Bold"),
+    url("./fonts/Metrisch-Bold.otf") format("truetype");
+}
+
+
+@font-face {
+  font-family: "Metrisch-Medium";   /*Can be any text*/
+  src: local("Metrisch-Medium"),
+    url("./fonts/Metrisch-Medium.otf") format("truetype");
+}
+
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

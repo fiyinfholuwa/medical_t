@@ -1,0 +1,226 @@
+.footer{
+    background-color: #124ebf;
+    height: 450px;
+}
+
+.footer .logo_sec{
+    margin-top: 100px;
+    padding-left: 100px;
+}
+
+.footer .logo_sec img{
+     height: 150px;
+     width: 200px;
+}
+
+.footer .footer_about, .footer .footer_link, .footer .footer_reach_out{
+    color: #97c5d9;
+    margin-top: 100px;
+}
+
+.footer .footer_about ul , .footer .footer_link ul, .footer .footer_reach_out ul{
+    list-style: none;
+    margin-top: 25px;
+    margin-left: -30px;
+}
+
+.footer .footer_about ul a , .footer .footer_link ul a, .footer .footer_reach_out ul a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.footer .footer_reach_out ul a{
+    padding-top: 50px;
+}
+
+.footer .footer_reach_out ul a span {
+    color: #557e7a;
+    background-color: #ffffff;
+    padding: 7px 25px; /* Increased padding for top and bottom */
+    border-radius: 10px;
+    margin: 5px 0; /* Added margin for space between elements */
+}
+
+.footer_btn{
+    margin-top: 10px;
+}
+
+.footer_bottom hr{
+    margin-top: -200px;
+    width: 90%;
+    color: #ffffff;
+    margin: 5%;
+}
+
+.footer_bottom p{
+    color: #ffffff;
+    margin-left: 7%;
+    margin-top: -50px;
+    font-size: 12px;
+}
+
+.footer_bottom  span {
+    color: #ffffff;
+    background-color: #84d0f8;
+    height: 50px !important;
+    width: 50px !important;
+    padding: 10px;
+    border-radius: 60% !important;
+    margin: 10px;
+    margin-top: -50px;
+}
+
+.footer_bottom .icon{
+    margin-top: -50px;
+}
+
+
+@media(max-width:768px){
+    .footer{
+        height: 750px;
+    }
+ 
+    .footer .footer_about, .footer .footer_link, .footer .footer_reach_out{
+        color: #97c5d9;
+        margin-top: 100px;
+        padding-left: 110px;
+    }
+    
+    .footer .footer_about ul , .footer .footer_link ul, .footer .footer_reach_out ul{
+        list-style: none;
+        margin-top: 25px;
+        margin-left: -30px;
+    }
+    
+    .footer .footer_about ul a , .footer .footer_link ul a, .footer .footer_reach_out ul a{
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 12px;
+        font-weight: 200;
+    }
+    
+    .footer .footer_reach_out ul a{
+        padding-top: 50px;
+    }
+    
+    .footer .footer_reach_out ul a span {
+        color: #557e7a;
+        background-color: #ffffff;
+        padding: 7px 25px; /* Increased padding for top and bottom */
+        border-radius: 10px;
+        margin: 5px 0; /* Added margin for space between elements */
+    }
+    
+    .footer_btn{
+        margin-top: 10px;
+    }
+    
+    .footer_bottom hr{
+        margin-top: -200px;
+        width: 90%;
+        color: #ffffff;
+        margin: 5%;
+    }
+    
+    .footer_bottom p{
+        
+        margin-top: -10px;
+    }
+    
+
+    .footer_bottom .icon{
+        margin-top: 2px;
+        padding-left: 80px;
+    }
+}
+
+
+
+
+@media(max-width:425px){
+    .footer{
+        background-color: #124ebf;
+        height: 800px;
+    }
+    
+    .footer .logo_sec{
+        margin-top: 100px;
+        padding-left: 20px;
+    }
+    
+    .footer .logo_sec img{
+         height: 150px;
+         width: 200px;
+    }
+    
+    .footer .footer_about, .footer .footer_link, .footer .footer_reach_out{
+        color: #97c5d9;
+        margin-top: 100px;
+        margin-left: -50px;
+    }
+    
+    .footer .footer_about ul , .footer .footer_link ul, .footer .footer_reach_out ul{
+        list-style: none;
+        margin-top: 25px;
+        margin-left: -30px;
+        width: 200%;
+    }
+    
+    .footer .footer_about ul a , .footer .footer_link ul a, .footer .footer_reach_out ul a{
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 12px;
+        font-weight: 200;
+    }
+    
+    .footer .footer_reach_out ul a{
+        padding-top: 50px;
+        font-size: 10px;
+        width: 100%;
+    }
+    
+    .footer .footer_reach_out ul a span {
+        color: #557e7a;
+        background-color: #ffffff;
+        padding: 7px 4px; 
+        border-radius: 10px;
+        font-size: 10px;
+        margin: 5px 0; 
+    }
+    
+    .footer_btn{
+        margin-top: 10px;
+    }
+    
+    .footer_bottom hr{
+        margin-top: -100px;
+        width: 90%;
+        color: #ffffff;
+        margin: 5%;
+    }
+    
+    .footer_bottom p{
+        color: #ffffff;
+        margin-left: 7%;
+        margin-top: 40px;
+        font-size: 12px;
+    }
+    
+    .footer_bottom  span {
+        color: #ffffff;
+        background-color: #84d0f8;
+        height: 50px !important;
+        width: 50px !important;
+        padding: 10px;
+        border-radius: 60% !important;
+        margin: 10px;
+        margin-top: 200px;
+    }
+    
+    .footer_bottom .icon{
+        margin-top: 10px;
+    }
+    
+}
